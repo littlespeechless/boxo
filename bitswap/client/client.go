@@ -39,6 +39,7 @@ import (
 )
 
 var log = logging.Logger("bitswap-client")
+var logReceive = logging.Logger("block")
 
 // Option defines the functional option type that can be used to configure
 // bitswap instances
@@ -351,6 +352,7 @@ func (bs *Client) receiveBlocksFrom(ctx context.Context, from peer.ID, blks []bl
 	// blocks)
 	for _, b := range wanted {
 		bs.notif.Publish(from, b)
+		logReceive.Debugf("Received wanted block; cid=%s, peer=%s", b.Cid(), from)
 	}
 
 	for _, b := range wanted {
