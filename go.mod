@@ -104,6 +104,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/huin/goupnp v1.3.0 // indirect
+	github.com/ipfs/boxo v0.10.0 // indirect
 	github.com/ipfs/go-blockservice v0.5.2 // indirect
 	github.com/ipfs/go-ipfs-blockstore v1.3.1 // indirect
 	github.com/ipfs/go-ipfs-ds-help v1.1.1 // indirect
@@ -174,7 +175,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.2.2 // indirect
 )
+
 //require (
 //	github.com/littleSpeechless/boxo v0.0.1
 //)
 //replace github.com/ipfs/boxo v0.19.0 => github.com/littleSpeechless/boxo v0.0.1
+
+//replace github.com/ipfs/boxo => github.com/littlespeechless/boxo v0.0.1
