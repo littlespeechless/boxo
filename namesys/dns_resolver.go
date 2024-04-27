@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	path "github.com/ipfs/boxo/path"
 	"github.com/ipfs/go-cid"
+	path "github.com/littlespeechless/boxo/path"
 	dns "github.com/miekg/dns"
 	"github.com/samber/lo"
 	"go.opentelemetry.io/otel/attribute"

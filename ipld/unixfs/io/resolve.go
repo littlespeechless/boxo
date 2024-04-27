@@ -3,9 +3,9 @@ package io
 import (
 	"context"
 
-	dag "github.com/ipfs/boxo/ipld/merkledag"
-	ft "github.com/ipfs/boxo/ipld/unixfs"
-	hamt "github.com/ipfs/boxo/ipld/unixfs/hamt"
+	dag "github.com/littlespeechless/boxo/ipld/merkledag"
+	ft "github.com/littlespeechless/boxo/ipld/unixfs"
+	hamt "github.com/littlespeechless/boxo/ipld/unixfs/hamt"
 
 	ipld "github.com/ipfs/go-ipld-format"
 )

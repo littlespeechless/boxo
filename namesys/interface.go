@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/path"
 	logging "github.com/ipfs/go-log/v2"
 	ci "github.com/libp2p/go-libp2p/core/crypto"
+	"github.com/littlespeechless/boxo/ipns"
+	"github.com/littlespeechless/boxo/path"
 )
 
 var log = logging.Logger("namesys")

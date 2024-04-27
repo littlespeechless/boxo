@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ipfs/boxo/examples/gateway/common"
-	"github.com/ipfs/boxo/gateway"
+	"github.com/littlespeechless/boxo/examples/gateway/common"
+	"github.com/littlespeechless/boxo/gateway"
 )
 
 func main() {

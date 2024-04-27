@@ -1,11 +1,11 @@
 package bstest
 
 import (
-	testinstance "github.com/ipfs/boxo/bitswap/testinstance"
-	tn "github.com/ipfs/boxo/bitswap/testnet"
-	"github.com/ipfs/boxo/blockservice"
-	mockrouting "github.com/ipfs/boxo/routing/mock"
 	delay "github.com/ipfs/go-ipfs-delay"
+	testinstance "github.com/littlespeechless/boxo/bitswap/testinstance"
+	tn "github.com/littlespeechless/boxo/bitswap/testnet"
+	"github.com/littlespeechless/boxo/blockservice"
+	mockrouting "github.com/littlespeechless/boxo/routing/mock"
 )
 
 // Mocks returns |n| connected mock Blockservices

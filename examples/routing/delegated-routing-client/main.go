@@ -10,12 +10,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/routing/http/client"
-	"github.com/ipfs/boxo/routing/http/types"
-	"github.com/ipfs/boxo/routing/http/types/iter"
 	"github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/ipns"
+	"github.com/littlespeechless/boxo/routing/http/client"
+	"github.com/littlespeechless/boxo/routing/http/types"
+	"github.com/littlespeechless/boxo/routing/http/types/iter"
 )
 
 func main() {

@@ -6,13 +6,13 @@ import (
 	"io"
 	"testing"
 
-	uio "github.com/ipfs/boxo/ipld/unixfs/io"
+	uio "github.com/littlespeechless/boxo/ipld/unixfs/io"
 
-	chunker "github.com/ipfs/boxo/chunker"
-	mdtest "github.com/ipfs/boxo/ipld/merkledag/test"
-	u "github.com/ipfs/boxo/util"
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
+	chunker "github.com/littlespeechless/boxo/chunker"
+	mdtest "github.com/littlespeechless/boxo/ipld/merkledag/test"
+	u "github.com/littlespeechless/boxo/util"
 )
 
 func getBalancedDag(t testing.TB, size int64, blksize int64) (ipld.Node, ipld.DAGService) {

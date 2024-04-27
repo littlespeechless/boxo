@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/namesys"
-	"github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/path/resolver"
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
+	"github.com/littlespeechless/boxo/files"
+	"github.com/littlespeechless/boxo/namesys"
+	"github.com/littlespeechless/boxo/path"
+	"github.com/littlespeechless/boxo/path/resolver"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

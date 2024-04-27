@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/path"
-	offroute "github.com/ipfs/boxo/routing/offline"
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	record "github.com/libp2p/go-libp2p-record"
 	ci "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/ipns"
+	"github.com/littlespeechless/boxo/path"
+	offroute "github.com/littlespeechless/boxo/routing/offline"
 	"github.com/stretchr/testify/require"
 )
 

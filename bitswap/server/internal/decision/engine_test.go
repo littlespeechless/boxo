@@ -14,10 +14,6 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
-	message "github.com/ipfs/boxo/bitswap/message"
-	pb "github.com/ipfs/boxo/bitswap/message/pb"
-	blockstore "github.com/ipfs/boxo/blockstore"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
@@ -25,6 +21,10 @@ import (
 	process "github.com/jbenet/goprocess"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 	libp2ptest "github.com/libp2p/go-libp2p/core/test"
+	"github.com/littlespeechless/boxo/bitswap/internal/testutil"
+	message "github.com/littlespeechless/boxo/bitswap/message"
+	pb "github.com/littlespeechless/boxo/bitswap/message/pb"
+	blockstore "github.com/littlespeechless/boxo/blockstore"
 	mh "github.com/multiformats/go-multihash"
 )
 

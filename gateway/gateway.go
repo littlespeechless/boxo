@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/gateway/assets"
-	"github.com/ipfs/boxo/ipld/unixfs"
-	"github.com/ipfs/boxo/path"
 	"github.com/ipfs/go-cid"
+	"github.com/littlespeechless/boxo/files"
+	"github.com/littlespeechless/boxo/gateway/assets"
+	"github.com/littlespeechless/boxo/ipld/unixfs"
+	"github.com/littlespeechless/boxo/path"
 )
 
 // Config is the configuration used when creating a new gateway handler.

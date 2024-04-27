@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/internal/test"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
+	"github.com/littlespeechless/boxo/internal/test"
 	mh "github.com/multiformats/go-multihash"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

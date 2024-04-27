@@ -6,10 +6,10 @@ import (
 	"time"
 
 	pubsub "github.com/cskr/pubsub"
-	"github.com/ipfs/boxo/bitswap/client/traceability"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/bitswap/client/traceability"
 )
 
 const bufferSize = 16

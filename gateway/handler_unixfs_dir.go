@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/gateway/assets"
-	"github.com/ipfs/boxo/path"
 	cid "github.com/ipfs/go-cid"
+	"github.com/littlespeechless/boxo/files"
+	"github.com/littlespeechless/boxo/gateway/assets"
+	"github.com/littlespeechless/boxo/path"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

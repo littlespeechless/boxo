@@ -7,19 +7,19 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ipfs/boxo/keystore"
-	"github.com/ipfs/boxo/namesys"
+	"github.com/littlespeechless/boxo/keystore"
+	"github.com/littlespeechless/boxo/namesys"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ipfs/boxo/ipns"
 	ds "github.com/ipfs/go-datastore"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/jbenet/goprocess"
 	gpctx "github.com/jbenet/goprocess/context"
 	ic "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/ipns"
 )
 
 var (
