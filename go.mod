@@ -181,4 +181,4 @@ require (
 //)
 //replace github.com/ipfs/boxo v0.19.0 => github.com/littleSpeechless/boxo v0.0.1
 
-//replace github.com/ipfs/boxo => github.com/littlespeechless/boxo v0.0.1
+//replace github.com/ipfs/boxo => github.com/littlespeechless/boxo v0.0.3
