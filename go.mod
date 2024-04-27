@@ -1,4 +1,4 @@
-module github.com/ipfs/boxo
+module github.com/littlespeechless/boxo
 
 go 1.21
 
