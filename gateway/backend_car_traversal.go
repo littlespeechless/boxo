@@ -9,7 +9,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs/boxo/verifcid"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-unixfsnode"
@@ -18,6 +17,7 @@ import (
 	"github.com/ipld/go-ipld-prime/datamodel"
 	"github.com/ipld/go-ipld-prime/linking"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
+	"github.com/littlespeechless/boxo/verifcid"
 	"github.com/multiformats/go-multihash"
 )
 
@@ -107,7 +107,7 @@ func carToLinearBlockGetter(ctx context.Context, reader io.Reader, timeout time.
 
 // extractIdentityMultihashCIDContents will check if a given CID has an identity multihash and if so return true and
 // the bytes encoded in the digest, otherwise will return false.
-// Taken from https://github.com/ipfs/boxo/blob/b96767cc0971ca279feb36e7844e527a774309ab/blockstore/idstore.go#L30
+// Taken from https://github.com/littlespeechless/boxo/blob/b96767cc0971ca279feb36e7844e527a774309ab/blockstore/idstore.go#L30
 func extractIdentityMultihashCIDContents(k cid.Cid) (bool, []byte) {
 	// Pre-check by calling Prefix(), this much faster than extracting the hash.
 	if k.Prefix().MhType != multihash.IDENTITY {

@@ -9,12 +9,12 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ipfs/boxo/blockservice"
-	"github.com/ipfs/boxo/examples/gateway/common"
-	offline "github.com/ipfs/boxo/exchange/offline"
-	"github.com/ipfs/boxo/gateway"
 	"github.com/ipfs/go-cid"
 	carblockstore "github.com/ipld/go-car/v2/blockstore"
+	"github.com/littlespeechless/boxo/blockservice"
+	"github.com/littlespeechless/boxo/examples/gateway/common"
+	offline "github.com/littlespeechless/boxo/exchange/offline"
+	"github.com/littlespeechless/boxo/gateway"
 )
 
 func main() {

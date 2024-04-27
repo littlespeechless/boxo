@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	ipns "github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/routing/offline"
 	"github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	record "github.com/libp2p/go-libp2p-record"
 	tnet "github.com/libp2p/go-libp2p-testing/net"
 	"github.com/libp2p/go-libp2p/core/routing"
+	ipns "github.com/littlespeechless/boxo/ipns"
+	"github.com/littlespeechless/boxo/path"
+	"github.com/littlespeechless/boxo/routing/offline"
 	"github.com/stretchr/testify/require"
 )
 

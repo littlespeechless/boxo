@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
 	peer "github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/bitswap/internal/testutil"
 )
 
 type fakePeerTagger struct {

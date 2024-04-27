@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ipfs/boxo/path"
+	"github.com/littlespeechless/boxo/path"
 )
 
 func TestContentPathToCarUrl(t *testing.T) {

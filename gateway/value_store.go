@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
 	"github.com/libp2p/go-libp2p/core/routing"
+	"github.com/littlespeechless/boxo/ipns"
 )
 
 type remoteValueStore struct {

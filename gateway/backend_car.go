@@ -12,11 +12,6 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/ipld/merkledag"
-	"github.com/ipfs/boxo/ipld/unixfs"
-	"github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/path/resolver"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
@@ -31,6 +26,11 @@ import (
 	"github.com/ipld/go-ipld-prime/node/basicnode"
 	"github.com/ipld/go-ipld-prime/schema"
 	"github.com/ipld/go-ipld-prime/traversal"
+	"github.com/littlespeechless/boxo/files"
+	"github.com/littlespeechless/boxo/ipld/merkledag"
+	"github.com/littlespeechless/boxo/ipld/unixfs"
+	"github.com/littlespeechless/boxo/path"
+	"github.com/littlespeechless/boxo/path/resolver"
 	"github.com/multiformats/go-multicodec"
 	"github.com/prometheus/client_golang/prometheus"
 )

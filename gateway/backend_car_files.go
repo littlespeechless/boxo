@@ -6,8 +6,6 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/ipld/unixfs"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
@@ -21,6 +19,8 @@ import (
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	"github.com/ipld/go-ipld-prime/node/basicnode"
 	"github.com/ipld/go-ipld-prime/schema"
+	"github.com/littlespeechless/boxo/files"
+	"github.com/littlespeechless/boxo/ipld/unixfs"
 	"github.com/multiformats/go-multicodec"
 )
 

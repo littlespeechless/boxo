@@ -12,9 +12,9 @@ import (
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
 
-	blockstore "github.com/ipfs/boxo/blockstore"
-	"github.com/ipfs/boxo/util"
 	blocks "github.com/ipfs/go-block-format"
+	blockstore "github.com/littlespeechless/boxo/blockstore"
+	"github.com/littlespeechless/boxo/util"
 
 	lru "github.com/hashicorp/golang-lru/v2"
 	"github.com/prometheus/client_golang/prometheus"

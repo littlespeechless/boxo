@@ -6,9 +6,9 @@ import (
 	"errors"
 	"io"
 
-	mdag "github.com/ipfs/boxo/ipld/merkledag"
-	unixfs "github.com/ipfs/boxo/ipld/unixfs"
 	ipld "github.com/ipfs/go-ipld-format"
+	mdag "github.com/littlespeechless/boxo/ipld/merkledag"
+	unixfs "github.com/littlespeechless/boxo/ipld/unixfs"
 )
 
 // Common errors

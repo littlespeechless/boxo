@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
 	cid "github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/littlespeechless/boxo/bitswap/internal/testutil"
 )
 
 type fakeProviderNetwork struct {

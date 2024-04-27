@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/namesys"
-	"github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/path/resolver"
 	"github.com/ipfs/go-cid"
 	routinghelpers "github.com/libp2p/go-libp2p-routing-helpers"
 	"github.com/libp2p/go-libp2p/core/routing"
+	"github.com/littlespeechless/boxo/ipns"
+	"github.com/littlespeechless/boxo/namesys"
+	"github.com/littlespeechless/boxo/path"
+	"github.com/littlespeechless/boxo/path/resolver"
 	"github.com/prometheus/client_golang/prometheus"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )

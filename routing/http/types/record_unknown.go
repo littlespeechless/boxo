@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/ipfs/boxo/routing/http/internal/drjson"
+	"github.com/littlespeechless/boxo/routing/http/internal/drjson"
 )
 
 var _ Record = &UnknownRecord{}

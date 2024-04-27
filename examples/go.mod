@@ -1,9 +1,8 @@
-module github.com/ipfs/boxo/examples
+module github.com/littlespeechless/boxo/examples
 
 go 1.21
 
 require (
-	github.com/ipfs/boxo v0.13.1
 	github.com/ipfs/go-block-format v0.2.0
 	github.com/ipfs/go-cid v0.4.1
 	github.com/ipfs/go-datastore v0.6.0
@@ -11,6 +10,7 @@ require (
 	github.com/ipld/go-ipld-prime v0.21.0
 	github.com/libp2p/go-libp2p v0.33.2
 	github.com/libp2p/go-libp2p-routing-helpers v0.7.3
+	github.com/littlespeechless/boxo v0.0.3
 	github.com/multiformats/go-multiaddr v0.12.3
 	github.com/multiformats/go-multicodec v0.9.0
 	github.com/prometheus/client_golang v1.19.0
@@ -58,6 +58,7 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/huin/goupnp v1.3.0 // indirect
 	github.com/ipfs/bbloom v0.0.4 // indirect
+	github.com/ipfs/boxo v0.19.0 // indirect
 	github.com/ipfs/go-bitfield v1.1.0 // indirect
 	github.com/ipfs/go-blockservice v0.5.2 // indirect
 	github.com/ipfs/go-ipfs-blockstore v1.3.1 // indirect
@@ -173,5 +174,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.2.2 // indirect
 )
-
-replace github.com/ipfs/boxo => ../
